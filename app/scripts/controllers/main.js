@@ -2,9 +2,13 @@
 
 angular.module('instatags')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+
+    $scope.tagExamples = [
+      'art',
+      'puppies',
+      'insta',
+      'vsco',
+      'kittens'
     ];
+
   });

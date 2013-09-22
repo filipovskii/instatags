@@ -6,7 +6,7 @@ angular.module('instatags', [ 'ui.router' ])
 
     $stateProvider
       .state('main', {
-        url: '/',
+        url: '/{q}',
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       });

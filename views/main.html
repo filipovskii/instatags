@@ -18,7 +18,7 @@
   <div class="row author" ng-repeat="author in authors|orderBy:'likesPerImage':true" ng-class-even="'gray'">
 
     <div class="col-xs-4">
-      <img ng-src="{{author.profile_picture}}">
+      <img class="img-responsive" ng-src="{{author.profile_picture}}">
     </div>
 
     <div class="col-xs-4">

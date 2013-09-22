@@ -1,20 +1,17 @@
 <div id="main-view">
 
-  <div class="row search">
-    <div class="col-lg-12">
+  <div class="search">
+    <form ng-submit="search()">
 
-      <form ng-submit="search()">
+      <div class="input-group">
+        <span class="input-group-addon">#</span>
 
-        <div class="input-group">
-          <span class="input-group-addon">#</span>
-
-          <input type="search" class="form-control"
-            it-placeholder-hint="tagExamples"
-            ng-model="tag"
-            autofocus>
-          </div>
-      </form>
-    </div>
+        <input type="search" class="form-control"
+          it-placeholder-hint="tagExamples"
+          ng-model="tag"
+          autofocus>
+        </div>
+    </form>
   </div>
 
 

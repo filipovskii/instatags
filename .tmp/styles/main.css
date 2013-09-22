@@ -7094,6 +7094,7 @@ td.visible-print {
 
 div#main-view {
   padding-top: 74px;
+  width: 100%;
 }
 
 div.author.gray {
@@ -7104,10 +7105,12 @@ div.search {
   background-color: #428bca;
   padding: 20px;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   z-index: 1;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {

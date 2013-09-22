@@ -40,9 +40,9 @@
     </div>
 
     <div class="col-xs-4">
-      <div class="image pull-right" ng-repeat="img in author.images">
-        <a target="_blank" ng-href="{{img.link}}">
-          <img class="img-responsive" ng-src="{{img.images.thumbnail.url}}">
+      <div class="image pull-right">
+        <a target="_blank" ng-href="{{author.images[0].link}}">
+          <img class="img-responsive" ng-src="{{author.images[0].images.thumbnail.url}}">
         </a>
       </div>
     </div>
